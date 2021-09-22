@@ -12,7 +12,7 @@ public class HelloWorldController {
 	//URI - /hello-world
 	//method - Hello World
 	// we can also use GetMapping as well
-	@GetMapping(path="/HelloWorld")
+	@GetMapping(path="/")
 	public String HelloWorld()
 	{
 		return "Hello World with get mapping";
