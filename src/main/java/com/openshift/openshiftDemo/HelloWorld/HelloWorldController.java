@@ -15,7 +15,7 @@ public class HelloWorldController {
 	@GetMapping(path="/")
 	public String HelloWorld()
 	{
-		return "Hello new version";
+		return "Hello  from SupplyChain";
 	}
 	
 	//method return Bean along with path variable arpit sharma
